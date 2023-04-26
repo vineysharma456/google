@@ -1,0 +1,84 @@
+<html>
+  <head>
+    <title>PHP Test</title>
+  </head>
+  <body>
+    <?php
+$a =5 ;
+$b = 9;
+// arithmetic operators
+// addition
+$c = $a +$b;
+echo "$c </br>";
+// subtraction
+$d = $b - $a;
+echo "$d</br>";
+// Multiplication
+$e = $a*$b;
+echo"$e</br>";
+// division
+$f =$b%$a;
+echo"$f</br>";
+$g =	$a ** $b;
+echo"$g</br>";
+
+
+
+// Modulus
+$k=	$a % $b;
+echo"$k</br>";
+
+
+// assignment operators
+// assign 
+$n =45;
+
+$x = $n;
+
+
+
+echo "value assigned ".$x;
+
+// add then assign
+$y = 2;
+$z = 89;
+	$z += $n;
+	$y -= $n;
+echo "$z</br>";
+echo "$y</br>";
+ // echo "value assigned ".$n;
+// comparison
+$first = 3;
+$second = 4;
+
+if ($first == $second){
+  echo "ture</br>";
+}
+else{
+  echo "falsoe</br>";
+}
+$num1 = 45;
+$num2 = 56;
+if ($num1 != $num2){
+  echo "prinmt";
+}
+
+  
+  
+
+
+
+
+
+
+
+?> 
+
+  <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
+  </body>
+</html>

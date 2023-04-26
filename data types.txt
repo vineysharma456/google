@@ -1,0 +1,56 @@
+<html>
+  <head>
+    <title>PHP Test</title>
+  </head>
+  <body>
+    <?php 
+// boolean
+$check = true;
+echo gettype($check);
+// integer
+$a = 5;
+$b = 5;
+$c = $a + $b;
+$d = $b-$a;
+echo ($d);
+echo ($c);
+// floating numbers
+  $cat1 = 19.34;  
+    $cat2 = 54.472;  
+    $sum = $cat1 + $cat2;  
+    echo "Addition of floating numbers: " .$sum ;  
+// if($){
+//   echo "this is true";
+// }
+// if($a !=$i){
+//     echo"This is false";
+//   }
+// array 
+$arr = array("ktm","duke","RS");
+var_dump($arr);
+echo " $arr[2]</br> ";  
+echo "$arr[1]";
+// object
+class model{
+  function bike(){
+    $bike_name = "bullet";
+    echo "bike name is :".$bike_name;
+      
+      
+    
+  }
+}
+$obj =  new model();
+$obj -> bike();
+
+
+?> 
+
+  <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
+  </body>
+</html>
