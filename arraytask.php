@@ -1,3 +1,4 @@
+
 <?php    
 $bar = array(
     "birds" => array(
@@ -40,7 +41,7 @@ function recursive($bar){
             recursive($value);  
         } else{
             //It is not an array, so print it out.
-            echo $value, '<br>';
+            echo $value.',';
         }
     }
 } 
